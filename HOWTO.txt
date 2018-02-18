@@ -1,4 +1,5 @@
 #summary Guide to the ios-cmake project
+#https://code.google.com/archive/p/ios-cmake/wikis/HowTo.wiki
 
 
 
@@ -108,11 +109,13 @@ A sample library is located in the samples/hello-lib location. It creates a smal
 
 {{{
 
+0. cd samples/hello-lib
+
 1. mkdir build.ios
 
 2. cd build.ios
 
-3. cmake -DCMAKE_TOOLCHAIN_FILE=../../../toolchains/iOS.cmake -GXcode ..
+3. cmake -DCMAKE_TOOLCHAIN_FILE=../../../toolchain/iOS.cmake -GXcode ..
 
 4a. Open XCode and build the install target or
 
