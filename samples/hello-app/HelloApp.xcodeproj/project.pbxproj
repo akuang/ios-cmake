@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		438404BF186D6286009CCB85 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 438404BE186D6286009CCB85 /* libstdc++.dylib */; };
+		1244C724203A63BE0024B8A4 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1244C723203A63BE0024B8A4 /* libc++.tbd */; };
 		438C1906185E41840056E638 /* libhello-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 438C1905185E41840056E638 /* libhello-lib.a */; settings = {ATTRIBUTES = (Weak, ); }; };
 		92942439145AFADC00D678AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92942438145AFADC00D678AE /* UIKit.framework */; };
 		9294243B145AFADC00D678AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9294243A145AFADC00D678AE /* Foundation.framework */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		438404BE186D6286009CCB85 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		1244C723203A63BE0024B8A4 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		438C1905185E41840056E638 /* libhello-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libhello-lib.a"; path = "../hello-lib/build/libhello-lib.a"; sourceTree = "<group>"; };
 		92942434145AFADC00D678AE /* HelloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92942438145AFADC00D678AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				438404BF186D6286009CCB85 /* libstdc++.dylib in Frameworks */,
+				1244C724203A63BE0024B8A4 /* libc++.tbd in Frameworks */,
 				438C1906185E41840056E638 /* libhello-lib.a in Frameworks */,
 				92942439145AFADC00D678AE /* UIKit.framework in Frameworks */,
 				9294243B145AFADC00D678AE /* Foundation.framework in Frameworks */,
@@ -76,7 +76,7 @@
 		92942437145AFADC00D678AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				438404BE186D6286009CCB85 /* libstdc++.dylib */,
+				1244C723203A63BE0024B8A4 /* libc++.tbd */,
 				92942438145AFADC00D678AE /* UIKit.framework */,
 				9294243A145AFADC00D678AE /* Foundation.framework */,
 				9294243C145AFADC00D678AE /* CoreGraphics.framework */,
