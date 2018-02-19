@@ -111,6 +111,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					92942433145AFADC00D678AE = {
+						DevelopmentTeam = 636WVPVM77;
+					};
+				};
 			};
 			buildConfigurationList = 9294242E145AFADC00D678AE /* Build configuration list for PBXProject "HelloApp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -189,6 +194,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 636WVPVM77;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloApp-Prefix.pch";
@@ -199,6 +205,7 @@
 					"$(SRCROOT)",
 				);
 				OTHER_LDFLAGS = "-stdlib=libstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akuang.ios-cmake";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -210,6 +217,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 636WVPVM77;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloApp-Prefix.pch";
 				GCC_VERSION = "";
@@ -219,6 +227,7 @@
 					"$(SRCROOT)",
 				);
 				OTHER_LDFLAGS = "-stdlib=libstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akuang.ios-cmake";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
