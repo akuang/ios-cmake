@@ -9,7 +9,7 @@
 
 	UILabel *label=[[UILabel alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
 	[self.view addSubview:label];
-	//label.textAlignment=UITextAlignmentCenter;
+	label.textAlignment=NSTextAlignmentCenter;
 	label.text=[self getHello];
 	//[label release];
 }
