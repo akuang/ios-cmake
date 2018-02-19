@@ -4,6 +4,7 @@
 
 ## Build generated
 build/
+build.ios/
 DerivedData/
 
 ## Various settings
